@@ -1,0 +1,214 @@
+
+
+
+
+
+
+
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1d1d1d;
+  color: white;
+  flex-direction: column;
+}
+
+.loading-text {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.large-spin {
+  font-size: 50px;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid #4285f4;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typewriter 4s steps(44, end), blink-caret 0.75s step-end infinite;
+  color: #4285f4;
+  font-size: 25px;
+  font-family: Nunito;
+  max-width: 600px;
+}
+
+.table-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.campo-editor {
+  margin: -5px 0;
+  border: none;
+  background: transparent !important;
+  width: 40%;
+  outline: none;
+}
+
+.campo-editor.ant-input-outlined:hover {
+  border-color: red !important;
+}
+
+.campo-editor.ant-input-outlined:focus {
+  border-color: blue !important;
+}
+
+.padre-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.padre-login::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px; 
+  height: 100%;
+  background-color: red; 
+  border-radius: 50px; 
+}
+
+.login-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(8, 0.6, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.login-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.form-group Input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group .Password {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inicia-sesion {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-group Button {
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bf5050;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-group Button:hover {
+  background-color: #f9a1a1 !important;
+  color: #1d1d1d !important;
+}
+.register-link {
+  text-align: center;
+  margin-top: -15px;
+}
+.otp-fields {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.otp-fields.show {
+  opacity: 1;
+}
+.register-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(8, 0.6, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.register-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-field {
+  border: none !important;
+  border-bottom: 2px solid #ccc !important;
+  padding: 10px;
+  transition: border-color 0.8s;
+  border-radius: none !important;
+}
+
+.input-field:focus {
+  border: none !important;
+  border-bottom-color: #888 !important;
+}
+
+.input-field.valid {
+  border: none !important;
+  border-bottom-color: #28a746 !important;
+}
+
+.input-password {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  transition: border-color 0.3s;
+}
+
+.input-password:focus {
+  border-bottom-color: #888;
+}
+
+.input-password.valid {
+  border-bottom-color: #28a746;
+}
+
+
+
+
+
+
+
